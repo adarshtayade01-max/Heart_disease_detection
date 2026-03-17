@@ -34,3 +34,49 @@ Different Classification algorithms are used and Recall & Precision metrics are 
   - Decision Tree Classifier
   - GridSearch CV
   - Random Forest Classifier
+ 
+---
+
+
+## Data Preprocessing
+- Checked for missing values  
+- Filled the null values.  
+- Split dataset into training and testing sets
+
+## Exploratory Data Analysis (EDA)
+Performed:
+- Class distribution analysis  
+- Visualization of key features  
+- Identification of the most influential attributes
+
+
+## Models Used
+### Logistic Regression
+- Baseline model for classification tasks  
+- Needs encoded numerical features  
+- Gave good accuracy compared to Decision tree.
+  
+### Decision Tree Classifier
+- Handles categorical features well  
+- Easy to interpret
+- overfitting
+- Achieved lower accuracy compared to the Logistic regression.
+
+### Random Forest Classifier
+- Ensemble technique  
+- Achieved high accuracy - 85.86%
+- Hyperparameters tunned
+
+
+## Model Evaluation
+| Model               |  Accuracy     |     Recall     |  Precision   |   F1 score    | 
+|--------------------|----------------|----------------|--------------|---------------|
+| Logistic Regression | 82.60%        |   83%          |   85%        |   84%         |
+| Decision Tree       | 75.55%        |   76%          |   80%        |   78%         |
+| Random Forest       | 85.86%        |   88%          |   87%        |   88%         |
+
+
+
+## Future Work
+- Can build an web application.
+- deploy for real time predictions.
